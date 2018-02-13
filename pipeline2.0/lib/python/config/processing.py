@@ -5,7 +5,9 @@ import config.basic
 ################################################################
 # This is where all of the output files are stored
 # Must be writable and have lots of free space...
-base_results_directory = "/home/fs01/lgs23/PALFA/results"
+#base_results_directory = "/home/fs01/lgs23/PALFA/results"
+base_results_directory = "/mnt/data1/adam_dev/results"
+
 # The following is the name of the scratch working directory
 # basename on the individual processing nodes
 base_working_directory = "/tmp"

@@ -2,18 +2,19 @@ import os.path
 
 # All of the following 3 are simple strings with no
 # pre-defined options
-institution = 'Cornell-waller'
+institution = 'Cornell-Aristotle'
 pipeline = "PRESTO"
 survey = "PALFA2.0"
 
 # This is the root directory of the source for the pipeline as pulled
 # from github
-pipelinedir = "/home/fs01/lgs23/PALFA/pipeline2.0"
+#pipelinedir = "/home/fs01/lgs23/PALFA/pipeline2.0"
+pipelinedir = "/opt/pulsar/PALFA/transients_pipeline2/pipeline2.0"
 
 # This is the root directory of the source for the psrfits_utils code
 # as pulled from github
-psrfits_utilsdir = "/home/fs01/lgs23/PALFA/psrfits_utils"
-
+#psrfits_utilsdir = "/home/fs01/lgs23/PALFA/psrfits_utils"
+psrfits_utilsdir = "/usr/local/bin"
 
 # A boolean value that determines if raw data is deleted when results
 # for a job are successfully uploaded to the common DB, or if the

@@ -10,7 +10,8 @@ import os
 import warnings
 import sys
 
-import pyfits
+#import pyfits
+from astropy.io import fits as pyfits
 import numpy as np
 import psr_utils
 from astro_utils import protractor
